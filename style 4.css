@@ -1,0 +1,187 @@
+@font-face {
+    font-family: regularfont;
+    src: url(atkinson-hyperlegible-regular-102-webfont\ \(1\).woff2);
+  }
+  @font-face {
+    font-family: boldfont;
+    src: url(atkinson-hyperlegible-bold-102-webfont\ \(2\).woff2);
+  }
+
+
+body{
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.block{
+    background-color: #f3eee4;
+    width: 800px; 
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-family: boldfont;
+    color: #1c2334;
+    font-size: 50px;
+    
+}
+h2{
+    font-family: boldfont;
+    color: #1c2334;
+    font-size: 30px;
+}
+p{
+    font-family: regularfont;
+    color: #1c2334;
+    font-size: 15px;
+}
+span {
+    font-family: regularfont;
+    color:#bb1450;
+    font-size: 15px;
+}
+.mine{
+    width:450px ;
+    height: fit-content;
+    background-color: #f3eee4;
+    
+}
+.block-2{
+    
+    display:block;
+    margin-bottom: 0px;
+}
+.block-1{
+    display:flex;
+    align-items: center;
+    background-color: #f3eee4; 
+    width: 800px;
+}
+.mine-2{
+    width:500px ;
+    height: fit-content;
+    background-color: #f3eee4; 
+    padding-left: 70px;
+    
+}
+.mine-2 h2{
+   margin-bottom: 2px;
+}
+.mine-3{
+    background-color: #e5bf55;
+    height: fit-content;
+    text-align: center;
+    width: 800px;
+    
+    
+}
+.mine-3 h1{
+    font-size: 30px;
+    padding-top:40px;
+    padding-bottom: 0px;
+}
+.line-1{
+    font-family: boldfont;
+    font-style: inherit;
+    color:#1c2334;
+    font-size: 30px;
+    text-decoration: underline;
+    text-decoration-color: #bb1450;  
+}
+.line-2{
+    font-family: regularfont;
+    font-style: inherit;
+    color:#1c2334;
+    font-size: 10px;
+    text-decoration: underline;
+    text-decoration-color: #bb1450;  
+}
+
+.second{
+    font-size:15px;
+    color:#1c2334;
+    font-size:10px;
+
+    
+}
+.button1 {
+    font-family: boldfont;
+    background-color: #1c2334;
+    border-radius: 20px;
+    border:1px solid purple;
+    color: white; 
+    text-align: center;
+    width: 150px;
+    height: 30px;
+    margin-bottom: 50px;
+    margin-top: 15px;
+
+}
+.button2{
+    font-family: boldfont;
+    background-color:  #e5bf55;
+    border-radius: 20px;
+    color: #1c2334; 
+    text-align: center;
+    margin-left: 10px;
+    width: 200px;
+    height: 30px;
+    margin-bottom: 50px;
+}
+.kofi-photo {
+    background-color:white;
+    height: fit-content;
+    width: 200px;
+    overflow: hidden;
+    display: block;
+    text-align: center;  
+    margin-left: 10px;
+    border-radius: 10px;
+
+}
+img{
+    width: 170px;
+    height: 60px;
+    overflow: hidden;
+    background-color: transparent;
+    margin-bottom: 0px;
+}
+.photo{
+    width: 200px;
+    height: 60px;
+    align-items: center;
+}
+.kofi-bottom {
+    background-color: black;
+    width: 200px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.kofi-p{
+    font-family: regularfont;
+    color:white;
+    font-size:10px;
+    text-align: left;
+    margin-left:10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom:10px;
+}
+.mine-4 {
+    background-color: #f3eee4;
+    height: 150px;
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;  
+}
+.mine-4 span{
+    font-family: boldfont;
+    color:#1c2334;
+    font-size: 10px;
+}
